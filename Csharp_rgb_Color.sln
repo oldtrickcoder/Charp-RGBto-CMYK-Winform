@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_rgb_Color", "Csharp_rgb_Color\Csharp_rgb_Color.csproj", "{29C2EF59-6E71-4470-BA88-0C6C06987CEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3300ECD9-9EED-4864-859F-CAFA77DD8731}
+	EndGlobalSection
+EndGlobal
