@@ -27,26 +27,38 @@ namespace Csharp_rgb_Color
             label6.Visible = false;
             label5.Visible = false;
             label4.Visible = false;
+            label16.Visible = false;
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-
-
-
-            int x, y, z;
+            label16.Visible = false;
+            label15.Visible = false;
+            label14.Visible = false;
+            label13.Visible = false;
+            label12.Visible = false;
+            label11.Visible = false;
+            label10.Visible = false;
+            label9.Visible = false;
+            label8.Visible = false;
+            label7.Visible = false;
+            label6.Visible = false;
+            label5.Visible = false;
+            label4.Visible = false;
+            if (textBox1.Text.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0)
+            {
+                MessageBox.Show("Mohon isi angkanya terlebih dahulu", "NOTED !!");
+                return;
+            }
+           
+                int x, y, z;
             x = Convert.ToInt32(textBox1.Text);
             y = Convert.ToInt32(textBox2.Text);
             z = Convert.ToInt32(textBox3.Text);
-
-            if (x > 255 || y > 255 || z > 255)
-            {
+            if (x > 255 || y > 255 || z > 255){
                 MessageBox.Show("angka yang anda masukan melebihi kapasitas warna rgb, mohon di perhatikan : maksimum nilai adalah 255", "NOTED !!");
-            }
-            else
-            {
+            }else{
                 pictureBox1.BackColor = Color.FromArgb(x, y, z);
          
             }
@@ -154,6 +166,25 @@ namespace Csharp_rgb_Color
         private void trackBar3_Scroll(object sender, EventArgs e)
         {
             textBox3.Text = trackBar3.Value.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label16.Visible = true;
+            int x, y, z;
+            x = Convert.ToInt32(textBox1.Text);
+            y = Convert.ToInt32(textBox2.Text);
+            z = Convert.ToInt32(textBox3.Text);
+            Color myColor = Color.FromArgb(x, y, z);
+            string hex = myColor.R.ToString("X2") + myColor.G.ToString("X2") + myColor.B.ToString("X2");
+            label16.Text = "#"+hex;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 creator = new Form2();
+            creator.ShowDialog();
         }
     }
 }

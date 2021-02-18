@@ -10,3 +10,4 @@ C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\bin\Debug\Csharp_rg
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\bin\Debug\Csharp_rgb_Color.application
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.exe.manifest
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.application
+C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.Form2.resources
