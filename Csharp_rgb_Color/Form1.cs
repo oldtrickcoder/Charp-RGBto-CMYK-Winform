@@ -120,10 +120,10 @@ namespace Csharp_rgb_Color
             Console.WriteLine(String.Format("{0:0.#}", magenta));
             Console.WriteLine(String.Format("{0:0.#}", yellow));
             Console.WriteLine(String.Format("{0:0.#}", k_publish));
-            label7.Text = String.Format("{0:0.#}", k_publish);
-            label6.Text = String.Format("{0:0.#}", yellow);
-            label5.Text = String.Format("{0:0.#}", magenta);
-            label4.Text = String.Format("{0:0.#}", cyan);
+            label7.Text = String.Format("{0:0}", k_publish);
+            label6.Text = String.Format("{0:0}", yellow);
+            label5.Text = String.Format("{0:0}", magenta);
+            label4.Text = String.Format("{0:0}", cyan);
 
             label15.Visible = true;
             label14.Visible = true;

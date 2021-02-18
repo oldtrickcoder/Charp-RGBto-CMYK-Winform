@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Csharp_rgb_Color")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Just Fun Project for creating RGB to CMYK color")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Follow me at Instagram :@yodagunawan")]
 [assembly: AssemblyProduct("Csharp_rgb_Color")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]

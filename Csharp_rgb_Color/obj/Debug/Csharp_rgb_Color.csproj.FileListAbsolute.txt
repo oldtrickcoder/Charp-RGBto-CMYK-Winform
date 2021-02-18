@@ -1,4 +1,3 @@
-C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.csprojAssemblyReference.cache
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.Form1.resources
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.Properties.Resources.resources
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.csproj.GenerateResource.cache
