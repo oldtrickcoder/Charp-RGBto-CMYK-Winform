@@ -24,7 +24,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/Csharp_rgb_Color/</UpdateUrl>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -62,10 +62,16 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Paint_second.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Csharp_rgb_Color_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

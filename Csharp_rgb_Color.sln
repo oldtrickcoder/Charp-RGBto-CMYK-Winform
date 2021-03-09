@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_rgb_Color", "Csharp_rgb_Color\Csharp_rgb_Color.csproj", "{29C2EF59-6E71-4470-BA88-0C6C06987CEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cek Warna Kamu RGB to CMYK", "Csharp_rgb_Color\Cek Warna Kamu RGB to CMYK.csproj", "{29C2EF59-6E71-4470-BA88-0C6C06987CEC}"
 EndProject
-Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "AI Setup Project1", "AI Setup Project1\AI Setup Project1.aiproj", "{DA21954C-016F-4064-9B7D-4E01E207F8A2}"
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Installer_Cek_Warnakamu", "Installer_Cek_Warnakamu\Installer_Cek_Warnakamu.aiproj", "{1C536DE0-4368-424F-B5BA-D53D530C4439}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C2EF59-6E71-4470-BA88-0C6C06987CEC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA21954C-016F-4064-9B7D-4E01E207F8A2}.All|Any CPU.ActiveCfg = DefaultBuild
-		{DA21954C-016F-4064-9B7D-4E01E207F8A2}.Debug|Any CPU.ActiveCfg = DefaultBuild
-		{DA21954C-016F-4064-9B7D-4E01E207F8A2}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{1C536DE0-4368-424F-B5BA-D53D530C4439}.All|Any CPU.ActiveCfg = DefaultBuild
+		{1C536DE0-4368-424F-B5BA-D53D530C4439}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{1C536DE0-4368-424F-B5BA-D53D530C4439}.Release|Any CPU.ActiveCfg = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

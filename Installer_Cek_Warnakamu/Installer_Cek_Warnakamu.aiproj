@@ -1,0 +1,45 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">All</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1c536de0-4368-424f-b5ba-d53d530c4439</ProjectGuid>
+    <OutputType>msi</OutputType>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Installer_Cek_Warnakamu.aip</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <IsWindowsApplication>True</IsWindowsApplication>
+    <AssemblyName>Installer_Cek_Warnakamu</AssemblyName>
+    <Name>Installer_Cek_Warnakamu</Name>
+    <RootNamespace>Installer_Cek_Warnakamu</RootNamespace>
+    <LoadFromTemplate>
+    </LoadFromTemplate>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'DefaultBuild' " />
+  <ItemGroup>
+    <Compile Include="Installer_Cek_Warnakamu.aip">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Csharp_rgb_Color\Cek Warna Kamu RGB to CMYK.csproj">
+      <Name>Cek Warna Kamu RGB to CMYK</Name>
+      <Project>{29c2ef59-6e71-4470-ba88-0c6c06987cec}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References;ContentOutput;DocumentationOutput;LocalizedResourcesOutput;SymbolsOutput;ComTypeLibraryOutput</OutputsToImport>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="Build">
+    <Error Text="This project requires Advanced Installer tool. Please download it from https://www.advancedinstaller.com/download.html" />
+  </Target>
+  <Target Name="Rebuild">
+    <Error Text="This project requires Advanced Installer tool. Please download it from https://www.advancedinstaller.com/download.html" />
+  </Target>
+  <Target Name="Clean">
+  </Target>
+  <Target Name="ResolveAssemblyReferences">
+  </Target>
+  <Import Condition="'$(AdvancedInstallerMSBuildTargets)' != ''" Project="$(AdvancedInstallerMSBuildTargets)\AdvInstExtTasks.Targets" />
+  <Import Condition="('$(AdvancedInstallerMSBuildTargets)' == '') And (Exists('$(MSBuildExtensionsPath32)\Caphyon\Advanced Installer\AdvInstExtTasks.Targets'))" Project="$(MSBuildExtensionsPath32)\Caphyon\Advanced Installer\AdvInstExtTasks.Targets" />
+</Project>

@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Cek_Warna_Kamu_RGB_to_CMYK")]
 [assembly: AssemblyDescription("Just Fun Project for creating RGB to CMYK color")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Follow me at Instagram :@yodagunawan")]
+[assembly: AssemblyCompany("yodagunawan")]
 [assembly: AssemblyProduct("Cek_Warna _Kamu_RGB_to_CMYK")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Warnai harimu")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
