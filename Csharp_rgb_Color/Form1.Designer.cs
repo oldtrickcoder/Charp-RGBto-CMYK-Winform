@@ -329,7 +329,7 @@ namespace Csharp_rgb_Color
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(804, 452);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.button3);
@@ -359,7 +359,8 @@ namespace Csharp_rgb_Color
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "CSharpColor index RGB to CMYK";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cek_Warna_Kamu RGB to CMYK Versi 1.0.0.";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();

@@ -2,7 +2,6 @@ C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\bin\Release\Csharp_
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\bin\Release\Csharp_rgb_Color.application
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\bin\Release\Csharp_rgb_Color.exe
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\bin\Release\Csharp_rgb_Color.pdb
-C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.csprojAssemblyReference.cache
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.Form1.resources
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.Form2.resources
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.Properties.Resources.resources
@@ -12,3 +11,4 @@ C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.application
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.exe
 C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.pdb
+C:\Users\CAL1\source\repos\Csharp_rgb_Color\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.csprojAssemblyReference.cache

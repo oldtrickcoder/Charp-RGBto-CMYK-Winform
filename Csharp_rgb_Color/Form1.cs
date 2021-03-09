@@ -11,7 +11,7 @@ namespace Csharp_rgb_Color
 {
     public partial class Form1 : Form
     {
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -51,21 +51,24 @@ namespace Csharp_rgb_Color
                 MessageBox.Show("Mohon isi angkanya terlebih dahulu", "NOTED !!");
                 return;
             }
-           
-                int x, y, z;
+
+            int x, y, z;
             x = Convert.ToInt32(textBox1.Text);
             y = Convert.ToInt32(textBox2.Text);
             z = Convert.ToInt32(textBox3.Text);
-            if (x > 255 || y > 255 || z > 255){
+            if (x > 255 || y > 255 || z > 255)
+            {
                 MessageBox.Show("angka yang anda masukan melebihi kapasitas warna rgb, mohon di perhatikan : maksimum nilai adalah 255", "NOTED !!");
-            }else{
-                pictureBox1.BackColor = Color.FromArgb(x, y, z);
-         
             }
-           
+            else
+            {
+                pictureBox1.BackColor = Color.FromArgb(x, y, z);
 
-            
-            
+            }
+
+
+
+
 
 
 
@@ -91,15 +94,15 @@ namespace Csharp_rgb_Color
             x = Convert.ToInt32(textBox1.Text);
             y = Convert.ToInt32(textBox2.Text);
             z = Convert.ToInt32(textBox3.Text);
-
+            pictureBox1.BackColor = Color.FromArgb(x, y, z);
             double rd = x / 255.000;
             double grn = y / 255.000;
             double bleu = z / 255.000;
-        
+
             double maxwarna;
             if (rd > grn)
             {
-               
+
 
                 if (rd > bleu)
                 {
@@ -111,7 +114,8 @@ namespace Csharp_rgb_Color
                 }
 
 
-            }else if (grn > bleu)
+            }
+            else if (grn > bleu)
             {
                 maxwarna = grn;
             }
@@ -120,14 +124,14 @@ namespace Csharp_rgb_Color
                 maxwarna = bleu;
             }
 
-            double cyan, magenta, yellow, k,k_publish;
-            k = (1-maxwarna) ;
-            cyan = ((1-rd-k)/ (1-k))*100;
-            magenta = ((1 - grn - k) / (1 - k))*100;
-            yellow = ((1 - bleu - k) / (1 - k))*100;
+            double cyan, magenta, yellow, k, k_publish;
+            k = (1 - maxwarna);
+            cyan = ((1 - rd - k) / (1 - k)) * 100;
+            magenta = ((1 - grn - k) / (1 - k)) * 100;
+            yellow = ((1 - bleu - k) / (1 - k)) * 100;
             k_publish = k * 100;
 
-            
+
             Console.WriteLine(String.Format("{0:0.#}", cyan));
             Console.WriteLine(String.Format("{0:0.#}", magenta));
             Console.WriteLine(String.Format("{0:0.#}", yellow));
@@ -149,6 +153,7 @@ namespace Csharp_rgb_Color
             label6.Visible = true;
             label5.Visible = true;
             label4.Visible = true;
+            label16.Visible = false;
 
         }
 
@@ -170,14 +175,28 @@ namespace Csharp_rgb_Color
 
         private void button3_Click(object sender, EventArgs e)
         {
+           
+            label15.Visible = false;
+            label14.Visible = false;
+            label13.Visible = false;
+            label12.Visible = false;
+            label11.Visible = false;
+            label10.Visible = false;
+            label9.Visible = false;
+            label8.Visible = false;
+            label7.Visible = false;
+            label6.Visible = false;
+            label5.Visible = false;
+            label4.Visible = false;
             label16.Visible = true;
             int x, y, z;
             x = Convert.ToInt32(textBox1.Text);
             y = Convert.ToInt32(textBox2.Text);
             z = Convert.ToInt32(textBox3.Text);
+            pictureBox1.BackColor = Color.FromArgb(x, y, z);
             Color myColor = Color.FromArgb(x, y, z);
             string hex = myColor.R.ToString("X2") + myColor.G.ToString("X2") + myColor.B.ToString("X2");
-            label16.Text = "#"+hex;
+            label16.Text = "#" + hex;
 
         }
 

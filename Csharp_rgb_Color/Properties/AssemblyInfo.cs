@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Csharp_rgb_Color")]
+[assembly: AssemblyTitle("Cek_Warna_Kamu_RGB_to_CMYK")]
 [assembly: AssemblyDescription("Just Fun Project for creating RGB to CMYK color")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Follow me at Instagram :@yodagunawan")]
-[assembly: AssemblyProduct("Csharp_rgb_Color")]
+[assembly: AssemblyProduct("Cek_Warna _Kamu_RGB_to_CMYK")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
