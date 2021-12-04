@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29c2ef59-6e71-4470-ba88-0c6c06987cec": {
+      "ProjectGuid": "29c2ef59-6e71-4470-ba88-0c6c06987cec",
+      "DisplayName": "Cek Warna Kamu RGB to CMYK",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

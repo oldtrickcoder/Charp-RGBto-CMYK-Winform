@@ -43,24 +43,33 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Csharp_rgb_Color.exe" size="251904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Csharp_rgb_Color.exe" size="256000">
       <assemblyIdentity name="Csharp_rgb_Color" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>FOgxnT+GruqbrOj+dyoLEyXErAM=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dcCUAzsA5qtsiSjhdPpfoU94YFt9Jov4B3XkeYALiE8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="Csharp_rgb_Color.exe.config" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1hvekB5xicyX1FodTEqjnUxN4raEGXc+x3QzhQbWWa0=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Paint_second.ico" size="74814">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>csY5x/qZ6w8Y/AR3+EsAjq2FWo4=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4iYHrvxqC71wKdXJxSHAsRCBGBOlyqgdP6MCKvANEEk=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

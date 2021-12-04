@@ -3,20 +3,20 @@
   <assemblyIdentity name="Csharp_rgb_Color.application" version="1.0.0.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Csharp_rgb_Color" asmv2:product="Csharp_rgb_Color" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true">
-    <deploymentProvider codebase="http://cal1-pc/Csharp_rgb_Color/Csharp_rgb_Color.application" />
+    <deploymentProvider codebase="http://desktop-dbnsotj/Csharp_rgb_Color/Csharp_rgb_Color.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Csharp_rgb_Color.exe.manifest" size="3554">
+    <dependentAssembly dependencyType="install" codebase="Csharp_rgb_Color.exe.manifest" size="3994">
       <assemblyIdentity name="Csharp_rgb_Color.exe" version="1.0.0.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UXYq+9+bPUchMrcPN8c885KsowE=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sMDBcpwUtQ4KguLYbFnWRE5HEfR3CJeBQDtQ7vb6p7s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

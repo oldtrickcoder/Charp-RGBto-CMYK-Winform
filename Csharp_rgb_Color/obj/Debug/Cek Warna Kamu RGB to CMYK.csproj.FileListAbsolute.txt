@@ -1,0 +1,2 @@
+C:\Users\yesma\source\repos\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.exe
+C:\Users\yesma\source\repos\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Debug\Csharp_rgb_Color.pdb
