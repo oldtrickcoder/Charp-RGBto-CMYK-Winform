@@ -14,7 +14,7 @@ this desktop app used master branch for the first development and using dotnet v
 now for further development Me using dotnet 48 for further development
 
 for the recent development you can clone dotnet48 branch 
-and if you want to use first development just clone the Master branch
+and if you want to use first development just clone the main branch
 
 
 
