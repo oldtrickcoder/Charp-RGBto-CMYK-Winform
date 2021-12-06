@@ -68,7 +68,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Paint_second.ico</ApplicationIcon>
+    <ApplicationIcon>rd_i.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -149,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Paint_second.ico" />
+    <Content Include="rd_i.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

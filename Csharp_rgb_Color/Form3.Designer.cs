@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.label16 = new System.Windows.Forms.Label();
             this.trackBar3 = new System.Windows.Forms.TrackBar();
             this.trackBar2 = new System.Windows.Forms.TrackBar();
@@ -77,26 +78,29 @@
             // trackBar3
             // 
             this.trackBar3.Location = new System.Drawing.Point(141, 274);
-            this.trackBar3.Maximum = 255;
+            this.trackBar3.Maximum = 100;
             this.trackBar3.Name = "trackBar3";
             this.trackBar3.Size = new System.Drawing.Size(147, 45);
             this.trackBar3.TabIndex = 36;
+            this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
             // 
             // trackBar2
             // 
             this.trackBar2.Location = new System.Drawing.Point(141, 187);
-            this.trackBar2.Maximum = 255;
+            this.trackBar2.Maximum = 100;
             this.trackBar2.Name = "trackBar2";
             this.trackBar2.Size = new System.Drawing.Size(147, 45);
             this.trackBar2.TabIndex = 35;
+            this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
             // 
             // trackBar1
             // 
             this.trackBar1.Location = new System.Drawing.Point(141, 99);
-            this.trackBar1.Maximum = 255;
+            this.trackBar1.Maximum = 100;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(147, 45);
             this.trackBar1.TabIndex = 34;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // button1
             // 
@@ -107,6 +111,7 @@
             this.button1.TabIndex = 33;
             this.button1.Text = "CHECK";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox3
             // 
@@ -170,10 +175,11 @@
             // trackBar4
             // 
             this.trackBar4.Location = new System.Drawing.Point(141, 368);
-            this.trackBar4.Maximum = 255;
+            this.trackBar4.Maximum = 100;
             this.trackBar4.Name = "trackBar4";
             this.trackBar4.Size = new System.Drawing.Size(147, 45);
             this.trackBar4.TabIndex = 40;
+            this.trackBar4.Scroll += new System.EventHandler(this.trackBar4_Scroll);
             // 
             // textBox4
             // 
@@ -241,6 +247,7 @@
             this.button2.TabIndex = 45;
             this.button2.Text = "Switch";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -251,6 +258,7 @@
             this.button4.TabIndex = 46;
             this.button4.Text = "?";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label10
             // 
@@ -285,30 +293,30 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(706, 452);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(70, 24);
+            this.label17.Size = new System.Drawing.Size(101, 31);
             this.label17.TabIndex = 49;
             this.label17.Text = "label17";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(585, 452);
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(594, 452);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(70, 24);
+            this.label18.Size = new System.Drawing.Size(101, 31);
             this.label18.TabIndex = 48;
             this.label18.Text = "label18";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(484, 452);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(70, 24);
+            this.label19.Size = new System.Drawing.Size(101, 31);
             this.label19.TabIndex = 47;
             this.label19.Text = "label19";
             // 
@@ -344,8 +352,11 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
-            this.Text = "CMYKtoRGB_CekWarnaKamu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "RGB to CMYK Versi 1.2.0.";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();

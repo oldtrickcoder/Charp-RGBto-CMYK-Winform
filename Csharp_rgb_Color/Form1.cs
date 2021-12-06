@@ -164,10 +164,22 @@ namespace Csharp_rgb_Color
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //this.Close();
+            this.Hide();
             Form3 switchtocmyk=new Form3();
             switchtocmyk.ShowDialog();
-            this.Close();
-         
+          
+            //this.Dispose(true);
+           
+
+
+
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

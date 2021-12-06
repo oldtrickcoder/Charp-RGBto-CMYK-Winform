@@ -86,6 +86,7 @@ namespace Csharp_rgb_Color
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(147, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -285,7 +286,7 @@ namespace Csharp_rgb_Color
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(419, 179);
+            this.label16.Location = new System.Drawing.Point(391, 185);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(317, 52);
             this.label16.TabIndex = 25;
@@ -347,7 +348,7 @@ namespace Csharp_rgb_Color
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cek_Warna_Kamu RGB to CMYK Versi 1.0.0.";
+            this.Text = "Cek_Warna_Kamu RGB to CMYK Versi 1.2.0.";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
