@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace Csharp_rgb_Color
 {
@@ -30,6 +31,8 @@ namespace Csharp_rgb_Color
             label16.Visible = false;
 
         }
+
+    
 
         private void button1_Click(object sender, EventArgs e)
         {

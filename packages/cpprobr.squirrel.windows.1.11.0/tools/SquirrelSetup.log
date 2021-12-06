@@ -1,8 +1,0 @@
-﻿2021-12-06 12:05:42> Program: Starting Squirrel Updater: --releasify color.1.2.0.nupkg
-2021-12-06 12:05:42> Program: Bootstrapper EXE found at:D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\packages\cpprobr.squirrel.windows.1.11.0\tools\Setup.exe
-2021-12-06 12:05:42> Program: Creating release package: D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Releases\color.1.2.0.nupkg
-2021-12-06 12:05:43> ReleasePackage: Creating release package: D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Releases\color.1.2.0.nupkg => D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Releases\color-1.2.0-full.nupkg
-2021-12-06 12:05:43> ReleasePackage: Extracting dependent packages: []
-2021-12-06 12:05:43> ReleasePackage: Removing unnecessary data
-2021-12-06 12:05:43> ReleasePackage: No release notes found in C:\Users\yesma\AppData\Local\SquirrelTemp\tempa\color.nuspec
-2021-12-06 12:05:46> Program: Building embedded zip file for Setup.exe

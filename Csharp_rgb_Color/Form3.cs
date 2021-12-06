@@ -50,7 +50,7 @@ namespace Csharp_rgb_Color
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0)
+            if (textBox1.Text.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0 || textBox4.Text.Length == 0)
             {
                 MessageBox.Show("Mohon isi angkanya terlebih dahulu", "NOTED !!");
                 return;
