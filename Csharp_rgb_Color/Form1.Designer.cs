@@ -308,9 +308,9 @@ namespace Csharp_rgb_Color
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(136, 392);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 29);
+            this.button2.Size = new System.Drawing.Size(147, 46);
             this.button2.TabIndex = 27;
-            this.button2.Text = "Switch";
+            this.button2.Text = "Opsi";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

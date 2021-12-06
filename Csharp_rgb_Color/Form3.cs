@@ -20,9 +20,8 @@ namespace Csharp_rgb_Color
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 xyz=new Form1();
+            Opsi xyz = new Opsi();
             xyz.ShowDialog();
-
 
 
         }
@@ -121,6 +120,14 @@ namespace Csharp_rgb_Color
 
 
 
+        }
+
+        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            Form1 xyz = new Form1();
+            xyz.ShowDialog();
         }
     }
 }

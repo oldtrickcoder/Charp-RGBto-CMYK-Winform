@@ -33,7 +33,7 @@ namespace Csharp_rgb_Color
             {
                 VisitLink();
             }
-            catch(Exception ex)
+            catch(Exception )
             {
                 MessageBox.Show("Unable to connect to internet, please check your connection", "info");
             }

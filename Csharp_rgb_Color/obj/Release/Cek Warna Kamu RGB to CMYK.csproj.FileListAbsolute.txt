@@ -28,20 +28,6 @@ D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Csharp_rg
 D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.exe
 D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.pdb
 D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.Form3.resources
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\DeltaCompressionDotNet.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\DeltaCompressionDotNet.MsDelta.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\DeltaCompressionDotNet.PatchApi.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.Mdb.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.Pdb.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.Rocks.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\NuGet.Squirrel.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\SharpCompress.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Squirrel.dll
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.pdb
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.Mdb.pdb
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.Pdb.pdb
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Mono.Cecil.Rocks.pdb
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\NuGet.Squirrel.pdb
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\bin\Release\Squirrel.pdb
-D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Cek Warna Kamu RGB to CMYK.csproj.CopyComplete
+D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Cek Warna Kamu RGB to CMYK.csproj.AssemblyReference.cache
+D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.Form4.resources
+D:\Data Riset\C#\Charp-RGBto-CMYK-Winform\Csharp_rgb_Color\obj\Release\Csharp_rgb_Color.Opsi.resources
