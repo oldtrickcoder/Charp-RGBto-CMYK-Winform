@@ -21,103 +21,10 @@ namespace Csharp_rgb_Color
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string hexstring = textBox1.Text;
-          
-            
-            if (textBox1.Text.Length > 6)
-            {
-                MessageBox.Show("Jumlah karakter Warna Hex hanya sampai 6 cek lagi warna yang kamu maksud");
-            }else if (textBox1.Text.Length == 0)
-            {
-                MessageBox.Show("Mohon Isi dahulu datanya");
-            }else if (textBox1.Text.Length<6 )
-            {
-                MessageBox.Show("Sepertinya tidak ada data itu di kode warna Hexadecimal");
-            }
-            else
-            {
-                
-                int r, g, b;
-                r = int.Parse(hexstring.Substring(0, 2), NumberStyles.AllowHexSpecifier);
-                g = int.Parse(hexstring.Substring(2, 2), NumberStyles.AllowHexSpecifier);
-                b = int.Parse(hexstring.Substring(4, 2), NumberStyles.AllowHexSpecifier);
-                pictureBox1.BackColor = Color.FromArgb(r, g, b);
-                double rd = r / 255.000;
-                double grn = g / 255.000;
-                double bleu = b / 255.000;
-
-                double maxwarna;
-                if (rd > grn)
-                {
-
-
-                    if (rd > bleu)
-                    {
-                        maxwarna = rd;
-                    }
-                    else
-                    {
-                        maxwarna = bleu;
-                    }
-
-
-                }
-                else if (grn > bleu)
-                {
-                    maxwarna = grn;
-                }
-                else
-                {
-                    maxwarna = bleu;
-                }
-
-                double cyan, magenta, yellow, k, k_publish;
-                k = (1 - maxwarna);
-                cyan = ((1 - rd - k) / (1 - k)) * 100;
-                magenta = ((1 - grn - k) / (1 - k)) * 100;
-                yellow = ((1 - bleu - k) / (1 - k)) * 100;
-                k_publish = k * 100;
-
-                double cyancode = Math.Round(cyan, 0);
-                double magcode = Math.Round(magenta, 0);
-                double yellowcode = Math.Round(yellow, 0);
-                double kcode = Math.Round(k_publish, 0);
-                label19.Text=r.ToString();
-                label18.Text = g.ToString();
-                label17.Text = b.ToString();
-                label19.Visible = true;
-                label18.Visible = true;
-                label17.Visible = true;
-                label10.Visible = true;
-                label8.Visible = true;
-                label9.Visible = true;
-                label5.Visible = true;
-                label4.Visible = true;
-                label3.Visible = true;
-                label11.Visible = true;
-                //
-                label20.Text = cyancode.ToString();
-                label16.Text = magcode.ToString();
-                label6.Text = yellowcode.ToString();
-                label7.Text = kcode.ToString();
-                label20.Visible = true;
-                label16.Visible = true;
-                label6.Visible = true;
-                label7.Visible = true;
-                //
-                label12.Visible = true;
-                label13.Visible = true;
-                label14.Visible = true;
-                label15.Visible = true;
-            }
-
-         
+            HEXConverter();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -218,6 +125,110 @@ namespace Csharp_rgb_Color
 
         private void label19_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode== Keys.Enter)
+            {
+                HEXConverter();
+            }
+        }
+
+        private void HEXConverter()
+        {
+            string hexstring = textBox1.Text;
+
+
+            if (textBox1.Text.Length > 6)
+            {
+                MessageBox.Show("Jumlah karakter Warna Hex hanya sampai 6 cek lagi warna yang kamu maksud");
+            }
+            else if (textBox1.Text.Length == 0)
+            {
+                MessageBox.Show("Mohon Isi dahulu datanya");
+            }
+            else if (textBox1.Text.Length < 6)
+            {
+                MessageBox.Show("Sepertinya tidak ada data itu di kode warna Hexadecimal");
+            }
+            else
+            {
+
+                int r, g, b;
+                r = int.Parse(hexstring.Substring(0, 2), NumberStyles.AllowHexSpecifier);
+                g = int.Parse(hexstring.Substring(2, 2), NumberStyles.AllowHexSpecifier);
+                b = int.Parse(hexstring.Substring(4, 2), NumberStyles.AllowHexSpecifier);
+                pictureBox1.BackColor = Color.FromArgb(r, g, b);
+                double rd = r / 255.000;
+                double grn = g / 255.000;
+                double bleu = b / 255.000;
+
+                double maxwarna;
+                if (rd > grn)
+                {
+
+
+                    if (rd > bleu)
+                    {
+                        maxwarna = rd;
+                    }
+                    else
+                    {
+                        maxwarna = bleu;
+                    }
+
+
+                }
+                else if (grn > bleu)
+                {
+                    maxwarna = grn;
+                }
+                else
+                {
+                    maxwarna = bleu;
+                }
+
+                double cyan, magenta, yellow, k, k_publish;
+                k = (1 - maxwarna);
+                cyan = ((1 - rd - k) / (1 - k)) * 100;
+                magenta = ((1 - grn - k) / (1 - k)) * 100;
+                yellow = ((1 - bleu - k) / (1 - k)) * 100;
+                k_publish = k * 100;
+
+                double cyancode = Math.Round(cyan, 0);
+                double magcode = Math.Round(magenta, 0);
+                double yellowcode = Math.Round(yellow, 0);
+                double kcode = Math.Round(k_publish, 0);
+                label19.Text = r.ToString();
+                label18.Text = g.ToString();
+                label17.Text = b.ToString();
+                label19.Visible = true;
+                label18.Visible = true;
+                label17.Visible = true;
+                label10.Visible = true;
+                label8.Visible = true;
+                label9.Visible = true;
+                label5.Visible = true;
+                label4.Visible = true;
+                label3.Visible = true;
+                label11.Visible = true;
+                //
+                label20.Text = cyancode.ToString();
+                label16.Text = magcode.ToString();
+                label6.Text = yellowcode.ToString();
+                label7.Text = kcode.ToString();
+                label20.Visible = true;
+                label16.Visible = true;
+                label6.Visible = true;
+                label7.Visible = true;
+                //
+                label12.Visible = true;
+                label13.Visible = true;
+                label14.Visible = true;
+                label15.Visible = true;
+            }
 
         }
     }

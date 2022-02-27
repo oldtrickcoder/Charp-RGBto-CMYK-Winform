@@ -36,102 +36,7 @@ namespace Csharp_rgb_Color
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
-            if (textBox1.Text.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0)
-            {
-                MessageBox.Show("Mohon isi angkanya terlebih dahulu", "NOTED !!");
-                return;
-            }
-
-            int x, y, z;
-            x = Convert.ToInt32(textBox1.Text);
-            y = Convert.ToInt32(textBox2.Text);
-            z = Convert.ToInt32(textBox3.Text);
-            if (x > 255 || y > 255 || z > 255)
-            {
-                MessageBox.Show("angka yang anda masukan melebihi kapasitas warna rgb, mohon di perhatikan : maksimum nilai adalah 255", "NOTED !!");
-            }
-            else
-            {
-                pictureBox1.BackColor = Color.FromArgb(x, y, z);
-                double rd = x / 255.000;
-                double grn = y / 255.000;
-                double bleu = z / 255.000;
-
-                double maxwarna;
-                if (rd > grn)
-                {
-
-
-                    if (rd > bleu)
-                    {
-                        maxwarna = rd;
-                    }
-                    else
-                    {
-                        maxwarna = bleu;
-                    }
-
-
-                }
-                else if (grn > bleu)
-                {
-                    maxwarna = grn;
-                }
-                else
-                {
-                    maxwarna = bleu;
-                }
-
-                double cyan, magenta, yellow, k, k_publish;
-                k = (1 - maxwarna);
-                cyan = ((1 - rd - k) / (1 - k)) * 100;
-                magenta = ((1 - grn - k) / (1 - k)) * 100;
-                yellow = ((1 - bleu - k) / (1 - k)) * 100;
-                k_publish = k * 100;
-
-                double cyancode= Math.Round(cyan, 0);
-                double magcode = Math.Round(magenta, 0);
-                double yellowcode=Math.Round(yellow, 0);
-                double kcode=Math.Round(k_publish, 0);
-                Color myColor = Color.FromArgb(x, y, z);
-                string hex = myColor.R.ToString("X2") + myColor.G.ToString("X2") + myColor.B.ToString("X2");
-                label16.Text = "#" + hex;
-
-                label15.Visible = true;
-                label14.Visible = true;
-                label13.Visible = true;
-                label12.Visible = true;
-                label11.Visible = true;
-                label10.Visible = true;
-                label9.Visible = true;
-                label8.Visible = true;
-                label7.Visible = true;
-                label6.Visible = true;
-                label5.Visible = true;
-                label4.Visible = true;
-                label16.Visible = true;
-                label4.Text = cyancode.ToString();
-                label5.Text = magcode.ToString();
-                label6.Text = yellowcode.ToString();
-                label7.Text = kcode.ToString();
-
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            AllSystemRGBConverter();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -178,9 +83,133 @@ namespace Csharp_rgb_Color
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+    
 
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+
+        }
+        private void AllSystemRGBConverter()
+        {
+            if (textBox1.Text.Length == 0 || textBox2.Text.Length == 0 || textBox3.Text.Length == 0)
+            {
+                MessageBox.Show("Mohon isi angkanya terlebih dahulu", "NOTED !!");
+                return;
+            }
+
+
+
+
+
+
+
+
+
+
+            if (Int32.TryParse(textBox1.Text, out var outparse1) && Int32.TryParse(textBox2.Text, out var outparse2) && Int32.TryParse(textBox3.Text, out var outparse3))
+            {
+                //jika benar merupakan data angka
+                int x, y, z;
+                x = Convert.ToInt32(textBox1.Text);
+                y = Convert.ToInt32(textBox2.Text);
+                z = Convert.ToInt32(textBox3.Text);
+                if (x > 255 || y > 255 || z > 255)
+                {
+                    MessageBox.Show("angka yang anda masukan melebihi kapasitas warna rgb, mohon di perhatikan : maksimum nilai adalah 255", "NOTED !!");
+                    return;
+                }
+                RGBConverter();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Mohon masukan data angka pada textbox");
+                return;
+            }
+
+        }
+
+        public void RGBConverter()
+        {
+            int x, y, z;
+            x = Convert.ToInt32(textBox1.Text);
+            y = Convert.ToInt32(textBox2.Text);
+            z = Convert.ToInt32(textBox3.Text);
+            trackBar1.Value = x;
+            trackBar2.Value = y;
+            trackBar3.Value = z;
+            pictureBox1.BackColor = Color.FromArgb(x, y, z);
+            double rd = x / 255.000;
+            double grn = y / 255.000;
+            double bleu = z / 255.000;
+
+            double maxwarna;
+            if (rd > grn)
+            {
+
+
+                if (rd > bleu)
+                {
+                    maxwarna = rd;
+                }
+                else
+                {
+                    maxwarna = bleu;
+                }
+
+
+            }
+            else if (grn > bleu)
+            {
+                maxwarna = grn;
+            }
+            else
+            {
+                maxwarna = bleu;
+            }
+
+            double cyan, magenta, yellow, k, k_publish;
+            k = (1 - maxwarna);
+            cyan = ((1 - rd - k) / (1 - k)) * 100;
+            magenta = ((1 - grn - k) / (1 - k)) * 100;
+            yellow = ((1 - bleu - k) / (1 - k)) * 100;
+            k_publish = k * 100;
+
+            double cyancode = Math.Round(cyan, 0);
+            double magcode = Math.Round(magenta, 0);
+            double yellowcode = Math.Round(yellow, 0);
+            double kcode = Math.Round(k_publish, 0);
+            Color myColor = Color.FromArgb(x, y, z);
+            string hex = myColor.R.ToString("X2") + myColor.G.ToString("X2") + myColor.B.ToString("X2");
+            label16.Text = "#" + hex;
+
+            label15.Visible = true;
+            label14.Visible = true;
+            label13.Visible = true;
+            label12.Visible = true;
+            label11.Visible = true;
+            label10.Visible = true;
+            label9.Visible = true;
+            label8.Visible = true;
+            label7.Visible = true;
+            label6.Visible = true;
+            label5.Visible = true;
+            label4.Visible = true;
+            label16.Visible = true;
+            label4.Text = cyancode.ToString();
+            label5.Text = magcode.ToString();
+            label6.Text = yellowcode.ToString();
+            label7.Text = kcode.ToString();
+        }
+
+        private void textBox3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                AllSystemRGBConverter();
+            }
         }
     }
 }

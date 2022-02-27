@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{29C2EF59-6E71-4470-BA88-0C6C06987CEC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Csharp_rgb_Color</RootNamespace>
-    <AssemblyName>Csharp_rgb_Color</AssemblyName>
+    <RootNamespace>Cek_Warna_Kamu</RootNamespace>
+    <AssemblyName>Cek_Warna_Kamu</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/Csharp_rgb_Color/</UpdateUrl>
-    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationRevision>12</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -54,13 +54,13 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>Csharp_rgb_Color.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>9D281722DB7404388DE011CDDDACA36998D99339</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>F71ECDFEB85CC22432CFFDF4D09B3E460371BB54</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Csharp_rgb_Color_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Cek Warna Kamu RGB to CMYK_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -148,6 +148,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="Cek Warna Kamu RGB to CMYK_1_TemporaryKey.pfx" />
+    <None Include="Cek Warna Kamu RGB to CMYK_2_TemporaryKey.pfx" />
+    <None Include="Cek Warna Kamu RGB to CMYK_TemporaryKey.pfx" />
     <None Include="Csharp_rgb_Color_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
