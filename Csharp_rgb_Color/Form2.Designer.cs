@@ -65,7 +65,7 @@ namespace Csharp_rgb_Color
             this.linkLabel1.LinkVisited = true;
             this.linkLabel1.Location = new System.Drawing.Point(121, 127);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(119, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(118, 16);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "@yodagunawan";
@@ -86,6 +86,7 @@ namespace Csharp_rgb_Color
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(428, 223);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel1);

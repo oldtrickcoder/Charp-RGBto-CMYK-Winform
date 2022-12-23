@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Cek_Warna_Kamu_RGB_to_CMYK")]
-[assembly: AssemblyDescription("Just Fun Project for creating RGB to CMYK color")]
+[assembly: AssemblyDescription("Just Fun Project for creating RGB to CMYK color and so otherwise")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("yodagunawan")]
 [assembly: AssemblyProduct("Cek_Warna _Kamu_RGB_to_CMYK")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]

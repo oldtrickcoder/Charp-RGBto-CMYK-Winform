@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29c2ef59-6e71-4470-ba88-0c6c06987cec": {
+      "ProjectGuid": "29c2ef59-6e71-4470-ba88-0c6c06987cec",
+      "DisplayName": "Cek Warna Kamu RGB to CMYK",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f17e19b7-54db-4cec-a3d6-ce85a803a4e1": {
+      "ProjectGuid": "f17e19b7-54db-4cec-a3d6-ce85a803a4e1",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
